@@ -18,7 +18,7 @@
 
 @synthesize pandoraURLString	= _pandoraURLString;
 @synthesize isProxyURL			= _isProxyURL;
-@synthesize pandoraURL			= _pandoraURL;
+@synthesize serviceURL			= _pandoraURL;
 @synthesize requestMethod		= _requestMethod;
 @synthesize cookies				= _cookies;
 @synthesize postParams			= _postParams;
@@ -31,7 +31,7 @@
 
 	if(request) {
 		request.pandoraURLString = urlString;
-		request.pandoraURL = [NSURL URLWithString:urlString];
+		request.serviceURL = [NSURL URLWithString:urlString];
 	}
 
 	return request;
@@ -50,7 +50,7 @@
 
 	if(self) {
 		self.pandoraURLString = urlString;
-		self.pandoraURL = [NSURL URLWithString:urlString];
+		self.serviceURL = [NSURL URLWithString:urlString];
 	}
 
 	return self;
@@ -102,6 +102,15 @@
 			break;
 		}
 
+		case requestPut:
+
+			break;
+
+		case requestDelete:
+
+			break;
+
+		case requestUnknown:
 		default:
 			break;
 	}
@@ -205,7 +214,7 @@
 
 				NSURL *url = [NSURL URLWithString:fullQueryString];
 
-				self.pandoraURL = url;
+				self.serviceURL = url;
 			}
 		}
 
@@ -231,7 +240,7 @@
 			break;
 	}
 
-	request.URL = self.pandoraURL;
+	request.URL = self.serviceURL;
 
 	[NSURLConnection connectionWithRequest:request delegate:response];
 }

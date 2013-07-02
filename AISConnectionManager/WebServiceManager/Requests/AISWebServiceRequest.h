@@ -16,7 +16,7 @@
 
 @property (strong, nonatomic) NSString				*pandoraURLString;
 @property (assign, nonatomic) BOOL					isProxyURL;
-@property (strong, nonatomic) NSURL					*pandoraURL;
+@property (strong, nonatomic) NSURL					*serviceURL;
 @property (assign, nonatomic) RequestMethod			requestMethod;
 @property (strong, nonatomic) NSMutableArray		*cookies;
 @property (strong, nonatomic) NSMutableDictionary	*postParams;
