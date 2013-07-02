@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A45F14E017834B760077E768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F14DF17834B760077E768 /* Foundation.framework */; };
+		A45F14E517834B760077E768 /* AISConnectionManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A45F14E417834B760077E768 /* AISConnectionManager.h */; };
+		A45F14E717834B760077E768 /* AISConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F14E617834B760077E768 /* AISConnectionManager.m */; };
+		A45F14EF17834B760077E768 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F14EE17834B760077E768 /* SenTestingKit.framework */; };
+		A45F14F117834B760077E768 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F14F017834B760077E768 /* UIKit.framework */; };
+		A45F14F217834B760077E768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F14DF17834B760077E768 /* Foundation.framework */; };
+		A45F14F517834B760077E768 /* libAISConnectionManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F14DC17834B760077E768 /* libAISConnectionManager.a */; };
+		A45F14FB17834B760077E768 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A45F14F917834B760077E768 /* InfoPlist.strings */; };
+		A45F14FE17834B760077E768 /* AISConnectionManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F14FD17834B760077E768 /* AISConnectionManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A45F14F317834B760077E768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45F14D417834B760077E768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A45F14DB17834B760077E768;
+			remoteInfo = AISConnectionManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A45F14DA17834B760077E768 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				A45F14E517834B760077E768 /* AISConnectionManager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A45F14DC17834B760077E768 /* libAISConnectionManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAISConnectionManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45F14DF17834B760077E768 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A45F14E317834B760077E768 /* AISConnectionManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AISConnectionManager-Prefix.pch"; sourceTree = "<group>"; };
+		A45F14E417834B760077E768 /* AISConnectionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISConnectionManager.h; sourceTree = "<group>"; };
+		A45F14E617834B760077E768 /* AISConnectionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISConnectionManager.m; sourceTree = "<group>"; };
+		A45F14ED17834B760077E768 /* AISConnectionManagerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AISConnectionManagerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45F14EE17834B760077E768 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A45F14F017834B760077E768 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A45F14F817834B760077E768 /* AISConnectionManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AISConnectionManagerTests-Info.plist"; sourceTree = "<group>"; };
+		A45F14FA17834B760077E768 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A45F14FC17834B760077E768 /* AISConnectionManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISConnectionManagerTests.h; sourceTree = "<group>"; };
+		A45F14FD17834B760077E768 /* AISConnectionManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISConnectionManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A45F14D917834B760077E768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45F14E017834B760077E768 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45F14E917834B760077E768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45F14EF17834B760077E768 /* SenTestingKit.framework in Frameworks */,
+				A45F14F117834B760077E768 /* UIKit.framework in Frameworks */,
+				A45F14F217834B760077E768 /* Foundation.framework in Frameworks */,
+				A45F14F517834B760077E768 /* libAISConnectionManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A45F14D317834B760077E768 = {
+			isa = PBXGroup;
+			children = (
+				A45F14E117834B760077E768 /* AISConnectionManager */,
+				A45F14F617834B760077E768 /* AISConnectionManagerTests */,
+				A45F14DE17834B760077E768 /* Frameworks */,
+				A45F14DD17834B760077E768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A45F14DD17834B760077E768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45F14DC17834B760077E768 /* libAISConnectionManager.a */,
+				A45F14ED17834B760077E768 /* AISConnectionManagerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A45F14DE17834B760077E768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A45F14DF17834B760077E768 /* Foundation.framework */,
+				A45F14EE17834B760077E768 /* SenTestingKit.framework */,
+				A45F14F017834B760077E768 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A45F14E117834B760077E768 /* AISConnectionManager */ = {
+			isa = PBXGroup;
+			children = (
+				A45F14E417834B760077E768 /* AISConnectionManager.h */,
+				A45F14E617834B760077E768 /* AISConnectionManager.m */,
+				A45F14E217834B760077E768 /* Supporting Files */,
+			);
+			path = AISConnectionManager;
+			sourceTree = "<group>";
+		};
+		A45F14E217834B760077E768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A45F14E317834B760077E768 /* AISConnectionManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A45F14F617834B760077E768 /* AISConnectionManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A45F14FC17834B760077E768 /* AISConnectionManagerTests.h */,
+				A45F14FD17834B760077E768 /* AISConnectionManagerTests.m */,
+				A45F14F717834B760077E768 /* Supporting Files */,
+			);
+			path = AISConnectionManagerTests;
+			sourceTree = "<group>";
+		};
+		A45F14F717834B760077E768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A45F14F817834B760077E768 /* AISConnectionManagerTests-Info.plist */,
+				A45F14F917834B760077E768 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A45F14DB17834B760077E768 /* AISConnectionManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45F150117834B760077E768 /* Build configuration list for PBXNativeTarget "AISConnectionManager" */;
+			buildPhases = (
+				A45F14D817834B760077E768 /* Sources */,
+				A45F14D917834B760077E768 /* Frameworks */,
+				A45F14DA17834B760077E768 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AISConnectionManager;
+			productName = AISConnectionManager;
+			productReference = A45F14DC17834B760077E768 /* libAISConnectionManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A45F14EC17834B760077E768 /* AISConnectionManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45F150417834B760077E768 /* Build configuration list for PBXNativeTarget "AISConnectionManagerTests" */;
+			buildPhases = (
+				A45F14E817834B760077E768 /* Sources */,
+				A45F14E917834B760077E768 /* Frameworks */,
+				A45F14EA17834B760077E768 /* Resources */,
+				A45F14EB17834B760077E768 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A45F14F417834B760077E768 /* PBXTargetDependency */,
+			);
+			name = AISConnectionManagerTests;
+			productName = AISConnectionManagerTests;
+			productReference = A45F14ED17834B760077E768 /* AISConnectionManagerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A45F14D417834B760077E768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Applied IS";
+			};
+			buildConfigurationList = A45F14D717834B760077E768 /* Build configuration list for PBXProject "AISConnectionManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A45F14D317834B760077E768;
+			productRefGroup = A45F14DD17834B760077E768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A45F14DB17834B760077E768 /* AISConnectionManager */,
+				A45F14EC17834B760077E768 /* AISConnectionManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A45F14EA17834B760077E768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45F14FB17834B760077E768 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A45F14EB17834B760077E768 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A45F14D817834B760077E768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45F14E717834B760077E768 /* AISConnectionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45F14E817834B760077E768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45F14FE17834B760077E768 /* AISConnectionManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A45F14F417834B760077E768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A45F14DB17834B760077E768 /* AISConnectionManager */;
+			targetProxy = A45F14F317834B760077E768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A45F14F917834B760077E768 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A45F14FA17834B760077E768 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A45F14FF17834B760077E768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A45F150017834B760077E768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A45F150217834B760077E768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AISConnectionManager.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AISConnectionManager/AISConnectionManager-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A45F150317834B760077E768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AISConnectionManager.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AISConnectionManager/AISConnectionManager-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A45F150517834B760077E768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AISConnectionManager/AISConnectionManager-Prefix.pch";
+				INFOPLIST_FILE = "AISConnectionManagerTests/AISConnectionManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A45F150617834B760077E768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AISConnectionManager/AISConnectionManager-Prefix.pch";
+				INFOPLIST_FILE = "AISConnectionManagerTests/AISConnectionManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A45F14D717834B760077E768 /* Build configuration list for PBXProject "AISConnectionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45F14FF17834B760077E768 /* Debug */,
+				A45F150017834B760077E768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45F150117834B760077E768 /* Build configuration list for PBXNativeTarget "AISConnectionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45F150217834B760077E768 /* Debug */,
+				A45F150317834B760077E768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A45F150417834B760077E768 /* Build configuration list for PBXNativeTarget "AISConnectionManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45F150517834B760077E768 /* Debug */,
+				A45F150617834B760077E768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A45F14D417834B760077E768 /* Project object */;
+}
