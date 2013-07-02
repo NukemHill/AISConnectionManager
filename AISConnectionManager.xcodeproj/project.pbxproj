@@ -16,6 +16,52 @@
 		A45F14F517834B760077E768 /* libAISConnectionManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F14DC17834B760077E768 /* libAISConnectionManager.a */; };
 		A45F14FB17834B760077E768 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A45F14F917834B760077E768 /* InfoPlist.strings */; };
 		A45F14FE17834B760077E768 /* AISConnectionManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F14FD17834B760077E768 /* AISConnectionManagerTests.m */; };
+		A45F156617834C0A0077E768 /* AISWebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F150917834C0A0077E768 /* AISWebServiceManager.m */; };
+		A45F156717834C0A0077E768 /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F150B17834C0A0077E768 /* ImageDownloader.m */; };
+		A45F156817834C0A0077E768 /* AISWebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F150E17834C0A0077E768 /* AISWebServiceRequest.m */; };
+		A45F157517834C0A0077E768 /* WebServiceDeleteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F152817834C0A0077E768 /* WebServiceDeleteRequest.m */; };
+		A45F157617834C0A0077E768 /* WebServiceGetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F152A17834C0A0077E768 /* WebServiceGetRequest.m */; };
+		A45F157717834C0A0077E768 /* WebServicePostRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F152C17834C0A0077E768 /* WebServicePostRequest.m */; };
+		A45F157817834C0A0077E768 /* WebServicePutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F152E17834C0A0077E768 /* WebServicePutRequest.m */; };
+		A45F157917834C0A0077E768 /* ResponseCode200.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F153117834C0A0077E768 /* ResponseCode200.m */; };
+		A45F157A17834C0A0077E768 /* ResponseCode302.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F153317834C0A0077E768 /* ResponseCode302.m */; };
+		A45F157B17834C0A0077E768 /* ResponseCode401.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F153517834C0A0077E768 /* ResponseCode401.m */; };
+		A45F157C17834C0A0077E768 /* ResponseCode403.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F153717834C0A0077E768 /* ResponseCode403.m */; };
+		A45F157D17834C0A0077E768 /* ResponseCode404.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F153917834C0A0077E768 /* ResponseCode404.m */; };
+		A45F157E17834C0A0077E768 /* ResponseCode408.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F153B17834C0A0077E768 /* ResponseCode408.m */; };
+		A45F157F17834C0A0077E768 /* ResponseCode412.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F153D17834C0A0077E768 /* ResponseCode412.m */; };
+		A45F158017834C0A0077E768 /* ResponseCode500.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F153F17834C0A0077E768 /* ResponseCode500.m */; };
+		A45F158117834C0A0077E768 /* ResponseCode503.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F154117834C0A0077E768 /* ResponseCode503.m */; };
+		A45F158217834C0A0077E768 /* WebServiceResponseValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F154317834C0A0077E768 /* WebServiceResponseValidator.m */; };
+		A45F158317834C0A0077E768 /* AISWebServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F154617834C0A0077E768 /* AISWebServiceResponse.m */; };
+		A45F158417834C0A0077E768 /* LegacyHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F154817834C0A0077E768 /* LegacyHttpResponse.m */; };
+		A45F159117834C0A0077E768 /* ValidatedAJAXResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F156217834C0A0077E768 /* ValidatedAJAXResponse.m */; };
+		A45F159217834C0A0077E768 /* WebApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A45F156417834C0A0077E768 /* WebApiResponse.m */; };
+		A45F159E17834C950077E768 /* libAISUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F159917834C2A0077E768 /* libAISUtilities.a */; };
+		A45F15A017834C9F0077E768 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F159F17834C9F0077E768 /* CoreGraphics.framework */; };
+		A466F1E91783568D00351865 /* AISWebServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F150817834C0A0077E768 /* AISWebServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1EA1783568D00351865 /* ImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F150A17834C0A0077E768 /* ImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1EB1783568D00351865 /* AISWebServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F150D17834C0A0077E768 /* AISWebServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1EC1783568D00351865 /* WebServiceDeleteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F152717834C0A0077E768 /* WebServiceDeleteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1ED1783568D00351865 /* WebServiceGetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F152917834C0A0077E768 /* WebServiceGetRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1EE1783568D00351865 /* WebServicePostRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F152B17834C0A0077E768 /* WebServicePostRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1EF1783568D00351865 /* WebServicePutRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F152D17834C0A0077E768 /* WebServicePutRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1F01783568D00351865 /* ResponseCode200.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F153017834C0A0077E768 /* ResponseCode200.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1F11783568D00351865 /* ResponseCode302.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F153217834C0A0077E768 /* ResponseCode302.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1F21783568D00351865 /* ResponseCode401.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F153417834C0A0077E768 /* ResponseCode401.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1F31783568D00351865 /* ResponseCode403.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F153617834C0A0077E768 /* ResponseCode403.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1F41783568D00351865 /* ResponseCode404.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F153817834C0A0077E768 /* ResponseCode404.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1F51783568D00351865 /* ResponseCode408.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F153A17834C0A0077E768 /* ResponseCode408.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1F61783568D00351865 /* ResponseCode412.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F153C17834C0A0077E768 /* ResponseCode412.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1F71783568D00351865 /* ResponseCode500.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F153E17834C0A0077E768 /* ResponseCode500.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1F81783568D00351865 /* ResponseCode503.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F154017834C0A0077E768 /* ResponseCode503.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1F91783568D00351865 /* WebServiceResponseValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F154217834C0A0077E768 /* WebServiceResponseValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1FA1783568D00351865 /* AISWebServiceResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F154517834C0A0077E768 /* AISWebServiceResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1FB1783568D00351865 /* LegacyHttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F154717834C0A0077E768 /* LegacyHttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1FC1783568D00351865 /* ValidatedAJAXResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F156117834C0A0077E768 /* ValidatedAJAXResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1FD1783568D00351865 /* WebApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F156317834C0A0077E768 /* WebApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1FE1783568D00351865 /* WebServiceDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F156517834C0A0077E768 /* WebServiceDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466F1FF1783568D00351865 /* AISConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A45F14E417834B760077E768 /* AISConnectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +71,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = A45F14DB17834B760077E768;
 			remoteInfo = AISConnectionManager;
+		};
+		A45F159817834C2A0077E768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45F159317834C2A0077E768 /* AISUtilities.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A4B37FF916D2AC7900369C55;
+			remoteInfo = AISUtilities;
+		};
+		A45F159A17834C2A0077E768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45F159317834C2A0077E768 /* AISUtilities.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A4B3800A16D2AC7A00369C55;
+			remoteInfo = AISUtilitiesTests;
+		};
+		A45F159C17834C8D0077E768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A45F159317834C2A0077E768 /* AISUtilities.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A4B37FF816D2AC7900369C55;
+			remoteInfo = AISUtilities;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -54,6 +121,51 @@
 		A45F14FA17834B760077E768 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A45F14FC17834B760077E768 /* AISConnectionManagerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISConnectionManagerTests.h; sourceTree = "<group>"; };
 		A45F14FD17834B760077E768 /* AISConnectionManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISConnectionManagerTests.m; sourceTree = "<group>"; };
+		A45F150817834C0A0077E768 /* AISWebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISWebServiceManager.h; sourceTree = "<group>"; };
+		A45F150917834C0A0077E768 /* AISWebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISWebServiceManager.m; sourceTree = "<group>"; };
+		A45F150A17834C0A0077E768 /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		A45F150B17834C0A0077E768 /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		A45F150D17834C0A0077E768 /* AISWebServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISWebServiceRequest.h; sourceTree = "<group>"; };
+		A45F150E17834C0A0077E768 /* AISWebServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISWebServiceRequest.m; sourceTree = "<group>"; };
+		A45F152717834C0A0077E768 /* WebServiceDeleteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceDeleteRequest.h; sourceTree = "<group>"; };
+		A45F152817834C0A0077E768 /* WebServiceDeleteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceDeleteRequest.m; sourceTree = "<group>"; };
+		A45F152917834C0A0077E768 /* WebServiceGetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceGetRequest.h; sourceTree = "<group>"; };
+		A45F152A17834C0A0077E768 /* WebServiceGetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceGetRequest.m; sourceTree = "<group>"; };
+		A45F152B17834C0A0077E768 /* WebServicePostRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServicePostRequest.h; sourceTree = "<group>"; };
+		A45F152C17834C0A0077E768 /* WebServicePostRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServicePostRequest.m; sourceTree = "<group>"; };
+		A45F152D17834C0A0077E768 /* WebServicePutRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServicePutRequest.h; sourceTree = "<group>"; };
+		A45F152E17834C0A0077E768 /* WebServicePutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServicePutRequest.m; sourceTree = "<group>"; };
+		A45F153017834C0A0077E768 /* ResponseCode200.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode200.h; sourceTree = "<group>"; };
+		A45F153117834C0A0077E768 /* ResponseCode200.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode200.m; sourceTree = "<group>"; };
+		A45F153217834C0A0077E768 /* ResponseCode302.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode302.h; sourceTree = "<group>"; };
+		A45F153317834C0A0077E768 /* ResponseCode302.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode302.m; sourceTree = "<group>"; };
+		A45F153417834C0A0077E768 /* ResponseCode401.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode401.h; sourceTree = "<group>"; };
+		A45F153517834C0A0077E768 /* ResponseCode401.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode401.m; sourceTree = "<group>"; };
+		A45F153617834C0A0077E768 /* ResponseCode403.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode403.h; sourceTree = "<group>"; };
+		A45F153717834C0A0077E768 /* ResponseCode403.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode403.m; sourceTree = "<group>"; };
+		A45F153817834C0A0077E768 /* ResponseCode404.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode404.h; sourceTree = "<group>"; };
+		A45F153917834C0A0077E768 /* ResponseCode404.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode404.m; sourceTree = "<group>"; };
+		A45F153A17834C0A0077E768 /* ResponseCode408.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode408.h; sourceTree = "<group>"; };
+		A45F153B17834C0A0077E768 /* ResponseCode408.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode408.m; sourceTree = "<group>"; };
+		A45F153C17834C0A0077E768 /* ResponseCode412.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode412.h; sourceTree = "<group>"; };
+		A45F153D17834C0A0077E768 /* ResponseCode412.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode412.m; sourceTree = "<group>"; };
+		A45F153E17834C0A0077E768 /* ResponseCode500.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode500.h; sourceTree = "<group>"; };
+		A45F153F17834C0A0077E768 /* ResponseCode500.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode500.m; sourceTree = "<group>"; };
+		A45F154017834C0A0077E768 /* ResponseCode503.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode503.h; sourceTree = "<group>"; };
+		A45F154117834C0A0077E768 /* ResponseCode503.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode503.m; sourceTree = "<group>"; };
+		A45F154217834C0A0077E768 /* WebServiceResponseValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceResponseValidator.h; sourceTree = "<group>"; };
+		A45F154317834C0A0077E768 /* WebServiceResponseValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceResponseValidator.m; sourceTree = "<group>"; };
+		A45F154517834C0A0077E768 /* AISWebServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISWebServiceResponse.h; sourceTree = "<group>"; };
+		A45F154617834C0A0077E768 /* AISWebServiceResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISWebServiceResponse.m; sourceTree = "<group>"; };
+		A45F154717834C0A0077E768 /* LegacyHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyHttpResponse.h; sourceTree = "<group>"; };
+		A45F154817834C0A0077E768 /* LegacyHttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyHttpResponse.m; sourceTree = "<group>"; };
+		A45F156117834C0A0077E768 /* ValidatedAJAXResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidatedAJAXResponse.h; sourceTree = "<group>"; };
+		A45F156217834C0A0077E768 /* ValidatedAJAXResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidatedAJAXResponse.m; sourceTree = "<group>"; };
+		A45F156317834C0A0077E768 /* WebApiResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebApiResponse.h; sourceTree = "<group>"; };
+		A45F156417834C0A0077E768 /* WebApiResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebApiResponse.m; sourceTree = "<group>"; };
+		A45F156517834C0A0077E768 /* WebServiceDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceDefs.h; sourceTree = "<group>"; };
+		A45F159317834C2A0077E768 /* AISUtilities.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AISUtilities.xcodeproj; path = ../AISUtilities/AISUtilities.xcodeproj; sourceTree = "<group>"; };
+		A45F159F17834C9F0077E768 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +173,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45F15A017834C9F0077E768 /* CoreGraphics.framework in Frameworks */,
+				A45F159E17834C950077E768 /* libAISUtilities.a in Frameworks */,
 				A45F14E017834B760077E768 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +196,7 @@
 		A45F14D317834B760077E768 = {
 			isa = PBXGroup;
 			children = (
+				A45F159317834C2A0077E768 /* AISUtilities.xcodeproj */,
 				A45F14E117834B760077E768 /* AISConnectionManager */,
 				A45F14F617834B760077E768 /* AISConnectionManagerTests */,
 				A45F14DE17834B760077E768 /* Frameworks */,
@@ -101,6 +216,7 @@
 		A45F14DE17834B760077E768 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A45F159F17834C9F0077E768 /* CoreGraphics.framework */,
 				A45F14DF17834B760077E768 /* Foundation.framework */,
 				A45F14EE17834B760077E768 /* SenTestingKit.framework */,
 				A45F14F017834B760077E768 /* UIKit.framework */,
@@ -111,6 +227,7 @@
 		A45F14E117834B760077E768 /* AISConnectionManager */ = {
 			isa = PBXGroup;
 			children = (
+				A45F150717834C0A0077E768 /* WebServiceManager */,
 				A45F14E417834B760077E768 /* AISConnectionManager.h */,
 				A45F14E617834B760077E768 /* AISConnectionManager.m */,
 				A45F14E217834B760077E768 /* Supporting Files */,
@@ -145,7 +262,123 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A45F150717834C0A0077E768 /* WebServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				A45F150817834C0A0077E768 /* AISWebServiceManager.h */,
+				A45F150917834C0A0077E768 /* AISWebServiceManager.m */,
+				A45F150A17834C0A0077E768 /* ImageDownloader.h */,
+				A45F150B17834C0A0077E768 /* ImageDownloader.m */,
+				A45F150C17834C0A0077E768 /* Requests */,
+				A45F152F17834C0A0077E768 /* Response Validators */,
+				A45F154417834C0A0077E768 /* Responses */,
+				A45F156517834C0A0077E768 /* WebServiceDefs.h */,
+			);
+			path = WebServiceManager;
+			sourceTree = "<group>";
+		};
+		A45F150C17834C0A0077E768 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				A45F150D17834C0A0077E768 /* AISWebServiceRequest.h */,
+				A45F150E17834C0A0077E768 /* AISWebServiceRequest.m */,
+				A45F152717834C0A0077E768 /* WebServiceDeleteRequest.h */,
+				A45F152817834C0A0077E768 /* WebServiceDeleteRequest.m */,
+				A45F152917834C0A0077E768 /* WebServiceGetRequest.h */,
+				A45F152A17834C0A0077E768 /* WebServiceGetRequest.m */,
+				A45F152B17834C0A0077E768 /* WebServicePostRequest.h */,
+				A45F152C17834C0A0077E768 /* WebServicePostRequest.m */,
+				A45F152D17834C0A0077E768 /* WebServicePutRequest.h */,
+				A45F152E17834C0A0077E768 /* WebServicePutRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		A45F152F17834C0A0077E768 /* Response Validators */ = {
+			isa = PBXGroup;
+			children = (
+				A45F153017834C0A0077E768 /* ResponseCode200.h */,
+				A45F153117834C0A0077E768 /* ResponseCode200.m */,
+				A45F153217834C0A0077E768 /* ResponseCode302.h */,
+				A45F153317834C0A0077E768 /* ResponseCode302.m */,
+				A45F153417834C0A0077E768 /* ResponseCode401.h */,
+				A45F153517834C0A0077E768 /* ResponseCode401.m */,
+				A45F153617834C0A0077E768 /* ResponseCode403.h */,
+				A45F153717834C0A0077E768 /* ResponseCode403.m */,
+				A45F153817834C0A0077E768 /* ResponseCode404.h */,
+				A45F153917834C0A0077E768 /* ResponseCode404.m */,
+				A45F153A17834C0A0077E768 /* ResponseCode408.h */,
+				A45F153B17834C0A0077E768 /* ResponseCode408.m */,
+				A45F153C17834C0A0077E768 /* ResponseCode412.h */,
+				A45F153D17834C0A0077E768 /* ResponseCode412.m */,
+				A45F153E17834C0A0077E768 /* ResponseCode500.h */,
+				A45F153F17834C0A0077E768 /* ResponseCode500.m */,
+				A45F154017834C0A0077E768 /* ResponseCode503.h */,
+				A45F154117834C0A0077E768 /* ResponseCode503.m */,
+				A45F154217834C0A0077E768 /* WebServiceResponseValidator.h */,
+				A45F154317834C0A0077E768 /* WebServiceResponseValidator.m */,
+			);
+			path = "Response Validators";
+			sourceTree = "<group>";
+		};
+		A45F154417834C0A0077E768 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				A45F154517834C0A0077E768 /* AISWebServiceResponse.h */,
+				A45F154617834C0A0077E768 /* AISWebServiceResponse.m */,
+				A45F154717834C0A0077E768 /* LegacyHttpResponse.h */,
+				A45F154817834C0A0077E768 /* LegacyHttpResponse.m */,
+				A45F156117834C0A0077E768 /* ValidatedAJAXResponse.h */,
+				A45F156217834C0A0077E768 /* ValidatedAJAXResponse.m */,
+				A45F156317834C0A0077E768 /* WebApiResponse.h */,
+				A45F156417834C0A0077E768 /* WebApiResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		A45F159417834C2A0077E768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45F159917834C2A0077E768 /* libAISUtilities.a */,
+				A45F159B17834C2A0077E768 /* AISUtilitiesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A466F1E71783565500351865 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A466F1E91783568D00351865 /* AISWebServiceManager.h in Headers */,
+				A466F1EA1783568D00351865 /* ImageDownloader.h in Headers */,
+				A466F1EB1783568D00351865 /* AISWebServiceRequest.h in Headers */,
+				A466F1EC1783568D00351865 /* WebServiceDeleteRequest.h in Headers */,
+				A466F1ED1783568D00351865 /* WebServiceGetRequest.h in Headers */,
+				A466F1EE1783568D00351865 /* WebServicePostRequest.h in Headers */,
+				A466F1EF1783568D00351865 /* WebServicePutRequest.h in Headers */,
+				A466F1F01783568D00351865 /* ResponseCode200.h in Headers */,
+				A466F1F11783568D00351865 /* ResponseCode302.h in Headers */,
+				A466F1F21783568D00351865 /* ResponseCode401.h in Headers */,
+				A466F1F31783568D00351865 /* ResponseCode403.h in Headers */,
+				A466F1F41783568D00351865 /* ResponseCode404.h in Headers */,
+				A466F1F51783568D00351865 /* ResponseCode408.h in Headers */,
+				A466F1F61783568D00351865 /* ResponseCode412.h in Headers */,
+				A466F1F71783568D00351865 /* ResponseCode500.h in Headers */,
+				A466F1F81783568D00351865 /* ResponseCode503.h in Headers */,
+				A466F1F91783568D00351865 /* WebServiceResponseValidator.h in Headers */,
+				A466F1FA1783568D00351865 /* AISWebServiceResponse.h in Headers */,
+				A466F1FB1783568D00351865 /* LegacyHttpResponse.h in Headers */,
+				A466F1FC1783568D00351865 /* ValidatedAJAXResponse.h in Headers */,
+				A466F1FD1783568D00351865 /* WebApiResponse.h in Headers */,
+				A466F1FE1783568D00351865 /* WebServiceDefs.h in Headers */,
+				A466F1FF1783568D00351865 /* AISConnectionManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A45F14DB17834B760077E768 /* AISConnectionManager */ = {
@@ -155,10 +388,12 @@
 				A45F14D817834B760077E768 /* Sources */,
 				A45F14D917834B760077E768 /* Frameworks */,
 				A45F14DA17834B760077E768 /* CopyFiles */,
+				A466F1E71783565500351865 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A45F159D17834C8D0077E768 /* PBXTargetDependency */,
 			);
 			name = AISConnectionManager;
 			productName = AISConnectionManager;
@@ -203,6 +438,12 @@
 			mainGroup = A45F14D317834B760077E768;
 			productRefGroup = A45F14DD17834B760077E768 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A45F159417834C2A0077E768 /* Products */;
+					ProjectRef = A45F159317834C2A0077E768 /* AISUtilities.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A45F14DB17834B760077E768 /* AISConnectionManager */,
@@ -210,6 +451,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A45F159917834C2A0077E768 /* libAISUtilities.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAISUtilities.a;
+			remoteRef = A45F159817834C2A0077E768 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A45F159B17834C2A0077E768 /* AISUtilitiesTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AISUtilitiesTests.octest;
+			remoteRef = A45F159A17834C2A0077E768 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A45F14EA17834B760077E768 /* Resources */ = {
@@ -244,6 +502,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				A45F14E717834B760077E768 /* AISConnectionManager.m in Sources */,
+				A45F156617834C0A0077E768 /* AISWebServiceManager.m in Sources */,
+				A45F156717834C0A0077E768 /* ImageDownloader.m in Sources */,
+				A45F156817834C0A0077E768 /* AISWebServiceRequest.m in Sources */,
+				A45F157517834C0A0077E768 /* WebServiceDeleteRequest.m in Sources */,
+				A45F157617834C0A0077E768 /* WebServiceGetRequest.m in Sources */,
+				A45F157717834C0A0077E768 /* WebServicePostRequest.m in Sources */,
+				A45F157817834C0A0077E768 /* WebServicePutRequest.m in Sources */,
+				A45F157917834C0A0077E768 /* ResponseCode200.m in Sources */,
+				A45F157A17834C0A0077E768 /* ResponseCode302.m in Sources */,
+				A45F157B17834C0A0077E768 /* ResponseCode401.m in Sources */,
+				A45F157C17834C0A0077E768 /* ResponseCode403.m in Sources */,
+				A45F157D17834C0A0077E768 /* ResponseCode404.m in Sources */,
+				A45F157E17834C0A0077E768 /* ResponseCode408.m in Sources */,
+				A45F157F17834C0A0077E768 /* ResponseCode412.m in Sources */,
+				A45F158017834C0A0077E768 /* ResponseCode500.m in Sources */,
+				A45F158117834C0A0077E768 /* ResponseCode503.m in Sources */,
+				A45F158217834C0A0077E768 /* WebServiceResponseValidator.m in Sources */,
+				A45F158317834C0A0077E768 /* AISWebServiceResponse.m in Sources */,
+				A45F158417834C0A0077E768 /* LegacyHttpResponse.m in Sources */,
+				A45F159117834C0A0077E768 /* ValidatedAJAXResponse.m in Sources */,
+				A45F159217834C0A0077E768 /* WebApiResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +541,11 @@
 			isa = PBXTargetDependency;
 			target = A45F14DB17834B760077E768 /* AISConnectionManager */;
 			targetProxy = A45F14F317834B760077E768 /* PBXContainerItemProxy */;
+		};
+		A45F159D17834C8D0077E768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AISUtilities;
+			targetProxy = A45F159C17834C8D0077E768 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -301,6 +585,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(OBJROOT)/UninstalledProducts/include\"/**",
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -324,6 +612,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(OBJROOT)/UninstalledProducts/include\"/**",
+					"\"$(TARGET_BUILD_DIR)/usr/local/lib/include\"/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -336,7 +628,10 @@
 				DSTROOT = /tmp/AISConnectionManager.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AISConnectionManager/AISConnectionManager-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -348,7 +643,10 @@
 				DSTROOT = /tmp/AISConnectionManager.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AISConnectionManager/AISConnectionManager-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -403,6 +701,7 @@
 				A45F150317834B760077E768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A45F150417834B760077E768 /* Build configuration list for PBXNativeTarget "AISConnectionManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +710,7 @@
 				A45F150617834B760077E768 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
